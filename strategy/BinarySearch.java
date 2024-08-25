@@ -1,9 +1,18 @@
-package strategy;
+/**
+ * @author Madeleine McBride
+ * This is a class that implements the SearchBehavior interface. It contains a method that searches for a person in a list of people using the binary search algorithm.
+ */
 
+ //Import Packages
+package strategy;
 import java.util.List;
 import java.util.Collections;
 
 public class BinarySearch implements SearchBehavior{
+
+    /**
+     * This method searches for a person in a list of people using the binary search algorithm.
+     */
 	public boolean contains(List<Person> data, Person item)
     {
         Collections.sort(data);
