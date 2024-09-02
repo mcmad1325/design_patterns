@@ -1,3 +1,5 @@
+package observer;
+
 public class Book {
     private String title;
     private Genre genre;
